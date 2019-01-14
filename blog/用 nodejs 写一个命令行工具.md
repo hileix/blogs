@@ -1,4 +1,4 @@
-## 用 nodejs 写一个命令行工具 ：创建 react 组件的命令行工具
+## 用 nodejs 写一个命令行工具：创建 react 组件的命令行工具
 
 ### 前言
 
@@ -6,20 +6,20 @@
 
 ### api 设计
 
-#### 0.1.0 版本的 rcli  参照 angular-cli  的设计，有两个功能：
+#### 0.1.0 版本的 rcli 参照 angular-cli 的设计，有两个功能：
 
 1. 使用 `rcli new PROJECT-NAME` 命令，创建一个 react 项目，其中生成项目的脚手架当然是 [create-react-app](https://github.com/facebook/create-react-app) 啦
-2.  使用 `rcli g component MyComponent` 命令， 创建一个 `MyComponent` 组件， 这个组件是一个文件夹，在文件夹中包含 `index.js`、`MyComponent.js`、`MyComponent.css` 三个文件
+2. 使用 `rcli g component MyComponent` 命令，创建一个 `MyComponent` 组件，这个组件是一个文件夹，在文件夹中包含 `index.js`、`MyComponent.js`、`MyComponent.css` 三个文件
 
- 后来发现 `rcli g component MyComponent` 命令在  平时开发过程中是不够用的，因为这个命令只是创建了一个类组件，且继承自 `React.Component`。
+后来发现 `rcli g component MyComponent` 命令在  平时开发过程中是不够用的，因为这个命令只是创建了一个类组件，且继承自 `React.Component`。
 
-在平时开发  过程中，我们会用到这三类组件：
+在平时开发过程中，我们会用到这三类组件：
 
 1. 继承自 `React.Component` 的类组件
-2.  继承自 `React.PureComponent` 的类组件
+2. 继承自 `React.PureComponent` 的类组件
 3. 函数组件（无状态组件）
 
- 注： 将来可以使用 [Hooks](https://reactjs.org/docs/hooks-intro.html) 来代替之前的类组件
+注：将来可以使用 [Hooks](https://reactjs.org/docs/hooks-intro.html) 来代替之前的类组件
 
 于是就有了 0.2.0 版本的 `rcli`
 
