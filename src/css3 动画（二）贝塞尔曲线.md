@@ -36,7 +36,7 @@
 
 在上面那个 [网站][7] 中，我们可以通过拖拽 p1 和 p2 点，来改变两点的坐标，从而产生一条曲线。
 
-![clipboard.png](/img/bVbduVA)
+<img src="https://www.github.com/hileix/blogs/raw/master/src/assets/css3-2.png"  />
 
 那么这条曲线代表什么含义呢？
 
@@ -97,7 +97,7 @@ https://codepen.io/reai3041/pen/RBbwzo
 
 在平抛运动垂直方向的速度曲线大概是这样子的：
 
-![clipboard.png](/img/bVbdvkd)
+![clipboard.png](https://www.github.com/hileix/blogs/raw/master/src/assets/css3-2-2.png)
 
 这样，我们就知道了 cubic-bezier() 函数的参数（图片中的这条曲线，其实就可以看做是实际的平抛的曲线）
 
@@ -110,7 +110,7 @@ css3 中的贝塞尔曲线其实很简单：一条以 `时间为横坐标`，以
 
 下一篇：[css3 动画（三）animation 简介][9]
 
-[1]: https://segmentfault.com/a/1190000015567752
+[1]: https://github.com/hileix/blogs/issues/10
 [2]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/timing-function
 [3]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/timing-function
 [4]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/timing-function
@@ -118,4 +118,4 @@ css3 中的贝塞尔曲线其实很简单：一条以 `时间为横坐标`，以
 [6]: http://cubic-bezier.com/
 [7]: http://cubic-bezier.com/
 [8]: http://cubic-bezier.com/#.48,0,.94,.28
-[9]: https://segmentfault.com/a/1190000015724999
+[9]: https://github.com/hileix/blogs/issues/12

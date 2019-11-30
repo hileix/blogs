@@ -66,4 +66,4 @@ animation-name 表示的是关键帧的名称，那么如何定义关键帧呢�
 [9]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-fill-mode
 [10]: https://segmentfault.com/q/1010000003867335
 [11]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/@keyframes
-[12]: https://segmentfault.com/a/1190000015725274
+[12]: https://github.com/hileix/blogs/issues/13

@@ -109,4 +109,4 @@ https://codepen.io/reai3041/pen/zagybK
 [4]: https://easings.net/zh-cn
 [5]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/timing-function
 [6]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition-delay
-[7]: https://segmentfault.com/a/1190000015572744
+[7]: https://github.com/hileix/blogs/issues/11

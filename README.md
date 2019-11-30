@@ -10,6 +10,10 @@
 ### 1.2 CSS
 
 - [z-index 详解](https://github.com/hileix/blogs/issues/8)
+- [css3 动画（一） transition](https://github.com/hileix/blogs/issues/10)
+- [css3 动画（二）贝塞尔曲线](https://github.com/hileix/blogs/issues/11)
+- [css3 动画（三）animation 简介](https://github.com/hileix/blogs/issues/12)
+- [css3 动画（四）animation.css 源码分析](https://github.com/hileix/blogs/issues/13)
 
 ## 2 框架类
 
