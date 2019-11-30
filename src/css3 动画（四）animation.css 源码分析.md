@@ -38,7 +38,7 @@ css3 的 animation 属性的理解。
 
 在 animate.css 的源码目录中，也根据其分类分为了 14 个文件夹：
 
-![clipboard.png](https://www.github.com/hileix/blogs/raw/master/assets/animate-css.png)
+![clipboard.png](https://www.github.com/hileix/blogs/raw/master/src/assets/animate-css.png)
 
 ### \_base.css 基础类
 
@@ -85,7 +85,6 @@ css3 的 animation 属性的理解。
 ### 示例：flash 动画源码
 
 然后，我们来看一个动画例子的源码：flash.css
-![clipboard.png](/img/bVbd80B)
 
 ```css
 @keyframes flash {

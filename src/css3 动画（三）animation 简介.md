@@ -53,7 +53,7 @@ animation-name 表示的是关键帧的名称，那么如何定义关键帧呢�
 
 其实 animation 也并不复杂，其有 8 个子属性。
 
-下一篇：[css3 动画（三）animation.css 源码解析][12]（通过阅读 animation.css 动画库的源码，来提高对 css3 中 animation 属性的认识）
+下一篇：[css3 动画（四）animation.css 源码分析][12]（通过阅读 animation.css 动画库的源码，来提高对 css3 中 animation 属性的认识）
 
 [1]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 [2]: https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation-delay
