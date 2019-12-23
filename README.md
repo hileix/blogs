@@ -20,6 +20,7 @@
 
 - [js 的继承](https://github.com/hileix/blogs/issues/6)
 - [DOM 事件流](https://github.com/hileix/blogs/issues/5)
+- [浏览器fps requestAnimation 以及 requestIdleCallback](https://github.com/hileix/blogs/issues/18)
 
 ## 2 框架
 
