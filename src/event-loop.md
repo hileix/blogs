@@ -117,15 +117,25 @@ setTimeout(function bar() {
 每一个 Event Loop 都有一个 `microtask 队列`：
 
 ```javascript
-new Promise(function foo(resolve) {
-  console.log('foo');
-  resolve();
-});
+// 调用 Promise 构造函数时，传入的回调是会立即调用的，所以 foo 不算 microtask
+// new Promise(function foo(resolve) {
+//   console.log('foo');
+//   resolve();
+// });
 
-new Promise(function bar(resolve) {
-  console.log('bar');
-  resolve();
-});
+// 调用 Promise 构造函数时，传入的回调是会立即调用的，所以 bar 不算 microtask
+// new Promise(function bar(resolve) {
+//   console.log('bar');
+//   resolve();
+// });
+
+Promise.resolve()
+  .then(function foo() {
+    console.log('promise1');
+  })
+  .then(function bar() {
+    console.log('promise2');
+  });
 ```
 
 - `foo()` microtask 被推入 `microtask 队列` 中
